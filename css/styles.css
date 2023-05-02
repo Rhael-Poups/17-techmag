@@ -1,7 +1,8 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
+  font-family:'Space Grotesk', sans-serif;;
 }
 
 img {
@@ -10,5 +11,74 @@ img {
 }
 
 header {
-  background-image: url(../img/DALL·E\ 2023-04-24\ 23.27.07\ -\ Create\ the\ background\ of\ a\ website\,\ some\ texture\,\ that\ looks\ like\ technology\ and\ electronic.png);
+  margin: auto;
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.box-title{
+  background-color: #060E17;
+  color: #e6f3ff;
+  text-align: center;
+  margin: 40px;
+  padding: 40px;
+}
+.cta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#060E17;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #e6f3ff;
+  text-decoration: none;
+}
+.cta-light{
+  background-color: #e6f3ff;
+  color: #060E17;
+}
+
+main{
+  text-align: center;
+  background-color: #e6f3ff;
+  padding: 30px;
+}
+.section-light{
+  background-color: #e6f3ff;
+  padding: 30px;
+}
+.section-dark{
+  background-color: #060E17;
+  color: #e6f3ff;
+  padding: 30px;
+}
+.card{
+  background-color: #E3F4FF;
+  color: #060E17;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-decoration: none;
+}
+.card img{
+  width: 100px;
+}
+
+
+footer{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #060E17;
+  color: #ffffff5e;
+  font-size: small;
+}
+p{
+  padding: 10px ;
 }
